@@ -1,19 +1,5 @@
-import click 
-from src.modeling.regression import regression_pred
+import sys
+from src.cli.predict_cli import cli  # подгружаем CLI-команду
 
-@click.command()
-def main():
-    print("Hello world!")
-    
-@click.command()
-@click.option('--amp', required=True, type=float, help='Амплитуда (Amp)')
-@click.option('--freq', required=True, type=float, help='Частота (FreQ)')
-def cli(amp,freq):
-    predict = regression_pred(amp, freq)
-    print (f"\nПредсказанная ширина валика: e = {predict[0]:.2f} мм\n")
-    
-
-
-
-if __name__=="__main__":
-    cli()
+if __name__ == "__main__": 
+    cli()# запускаем её
