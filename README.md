@@ -70,7 +70,7 @@ DS_Diploma/
 ```bash
 1. Склонировать репозиторий в рабочую папку: 
 
-    git clone https://github.com/yourname/DS_Diploma.git
+    git clone https://github.com/iaPlotnikovv/DS_Diploma.git
     cd DS_Diploma
     
 
