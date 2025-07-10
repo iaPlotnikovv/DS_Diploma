@@ -85,7 +85,7 @@ DS_Diploma/
     3-> pip install -r requirements.txt
 
 3. Запуск модели: 
-    >python main.py --amp <значение> --freq <значение>
+    > python main.py --amp <значение> --freq <значение>
     # или
-    >python main.py -a <значение> -f <значение>
+    > python main.py -a <значение> -f <значение>
 ```
